@@ -14,13 +14,3 @@ provider "azurerm" {
   client_secret   = "390393cb-1efc-44d0-9d26-baf50433beb6"
   tenant_id       = "5b973f99-77df-4beb-b27d-aa0c70b8482c"
 }
-
-#Creating resource group 1
-resource "azurerm_resource_group" "rg1" {
-  name     = "testrg1"
-  location = "West US"
-
-  tags = {
-    env = "dev"
-  }
-}
