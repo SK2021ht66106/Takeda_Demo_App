@@ -15,7 +15,7 @@ provider "azurerm" {
   tenant_id       = "5b973f99-77df-4beb-b27d-aa0c70b8482c"
 }
 
-#Creating resource group
+#Creating resource group 1
 resource "azurerm_resource_group" "rg1" {
   name     = "testrg1"
   location = "West US"
