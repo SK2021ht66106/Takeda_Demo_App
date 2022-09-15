@@ -1,7 +1,7 @@
 
 #Creating resource group 1
 resource "azurerm_resource_group" "rg1" {
-  name     = "testrg1"
+  name     = var.rg
   location = "West US"
 
   tags = {
